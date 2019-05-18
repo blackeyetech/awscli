@@ -17,5 +17,4 @@ docker container run --rm -it \
                      blackeyetechnology/awscli
 ```
 
-**aws** is the default command, which this will bring you to a bash prompt where
-you can run your AWS commands.
+**aws** is the default command.
