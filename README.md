@@ -13,7 +13,7 @@ An example of using this container is as follows:
 
 ```
 docker container run --rm -it \
-                     --mount type=bind,src=$(pwd)/.aws,target=/home/aws \
+                     --mount type=bind,src=$(pwd),target=/home/aws \
                      blackeyetechnology/awscli
 ```
 
